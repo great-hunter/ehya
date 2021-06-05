@@ -1,4 +1,30 @@
 @media (max-width: 1140px)
-  .container
+  .container, .top
     max-width: 960px
+@media (max-width: 992px)
+  .container, .top
+    max-width: 700px
+  .face
+    &__text
+      width: 100%
+    &-button
+      &--left
+        width: 190px
+      &--right
+        width: 190px
+    &__img
+      min-width: 230px
+@media ( max-height: 545px )
+  .modal
+    &__dialog
+        max-height: 96vh
+        overflow: auto
+@media ( max-width:  725px)
+  .container
+    max-width: 576px
+    width: 92%
+@media ( max-width: 576px )
+  .container
+    max-width: 576px
+    width: 92%
   

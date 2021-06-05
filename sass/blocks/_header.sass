@@ -67,6 +67,7 @@ body
   align-items: start
   justify-content: space-between
   &-left
+    padding-bottom: 56px
     flex-basis: 50%
   &__title
     margin-top: 50px
@@ -129,8 +130,15 @@ body
         color: #FFFFFF
         transition: 1s
   &-right
-    padding: 100px 100px
+    flex-basis: 50%
     position: relative
+    align-self: stretch
+    display: flex
+    
+  &__img
+    max-width: 300px
+    min-width: 250px
+    margin: auto
   .img-wraper
     position: absolute
     top: 0
