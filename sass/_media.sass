@@ -23,8 +23,105 @@
   .container
     max-width: 576px
     width: 92%
+  .top
+    &-logo
+      margin-left: 5%
+    &-menu
+      display: none
+      width: 100%
+      flex-direction: column
+      
+      background-color: #fff
+      position: fixed
+      top: 64px
+      align-items: center
+      padding-bottom: 25px
+      &--visible
+        display: flex
+      &__button
+        margin-top: 20px
+        &:hover
+          color:   #1565D8
+          background: #FFFFFF
+          transition: 0s
+      &__nav
+        flex-direction: column
+        align-items: flex-start
+        margin-right: 0
+        width: 150px
+      &__links
+        margin-top: 20px
+        &:hover
+          text-decoration: none
+      &__link
+        font-size: 20px
+      &__mobile
+        display: flex
+        margin-right: 5%
+  .face
+    flex-wrap: wrap
+    &-left
+      flex-basis: 100%
+    &-right
+      flex-basis: 100%
+    &__img
+      padding-top: 30px
 @media ( max-width: 576px )
+  body
+    padding: 0
   .container
     max-width: 576px
     width: 92%
+  .top
+    padding-top: 0
+    height: 64px
+  .face
+    margin-top: 50px
+    text-align: center
+    &-left
+      padding-bottom: 36px
+    &__title
+      font-size: 32px
+      line-height: 40px
+      &--h2
+        margin-top: 24px
+        font-size: 16px
+        line-height: 24px
+    &__text
+      margin: auto
+      margin-top: 32px
+      font-size: 16px
+      line-height: 23px
+      width: 280px
+    &__buttons
+      height: 100%
+      margin-top: 17px
+      flex-direction: column
+      align-items: center
+    &-button
+      width: 176px
+      height: 40px
+      font-size: 16px
+      line-height: 22px
+      &--right
+        margin-top: 15px
+        margin-left: 0
+        &:hover
+          background-color:  #FFFFFF
+          color: #1565D8
+          transition: 0s
+      &--left
+        &:hover
+          background-color:  #1565D8
+          color: #FFFFFF
+          transition: 0s
+    &-right
+      padding-top: 60px
+      padding-bottom: 10px
+    &__img
+      width: 61%
+      min-width: 180px
+      padding-top: 0
+      
+      
   

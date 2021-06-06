@@ -1,9 +1,9 @@
 $(document).ready(function () {
   
   //Мобильное меню
-  var menuButton = $(".navbar-mobile__button");
+  var menuButton = $(".top-menu__mobile");
   menuButton.on('click', function () {
-    $(".navbar__menu").toggleClass('navbar__menu--mobile--visible');
+    $(".top-menu").toggleClass('top-menu--visible');
   });
 
 
