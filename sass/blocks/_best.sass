@@ -1,0 +1,122 @@
+.best
+  padding-bottom: 80px
+  &-wraper
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+.recommendations
+  flex-basis: 65%
+  &__cards
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
+  &__button
+    width: 100%
+    height: 72px
+    margin-top: 27px
+    font-family: Roboto Condensed
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    line-height: 20px
+    text-align: center
+    color: #1565D8
+    border-radius: 8px
+    border: 0px
+    cursor: pointer
+    background: rgba(21, 101, 216, 0.1)
+    mix-blend-mode: normal
+    &:hover
+      transition: .5s
+      background: rgba(21, 101, 216, 0.3)
+.card
+  display: flex
+  align-items: center
+  justify-content: start
+  margin-top: 30px
+  padding: 11px
+  border: 1px solid #ECEEF2
+  border-radius: 8px
+  width: 358px
+  height: 260px
+  &__img-container
+    flex-basis: 100%
+    max-width: 160px
+    height: 238px
+    border: 0px solid #ffffff
+    border-radius: 8px
+    overflow: hidden
+  &__img
+    width: 100%
+    height: 100%
+  &__descriptions
+    margin-left: 19px
+    display: flex
+    flex-direction: column
+  &__title
+    margin: 0
+    font-family: Roboto
+    font-style: normal
+    font-weight: 500
+    font-size: 22px
+    line-height: 32px
+    color: #183B56
+    &--width2
+      max-width: 115px
+    &--width4
+      max-width: 140px
+    &--span
+      margin-right: 10px
+  &__text
+    margin-top: 18px
+    font-family: Open Sans
+    font-style: normal
+    font-weight: normal
+    font-size: 16px
+    line-height: 22px
+    color: #183B56
+  &__prise
+    margin-top: 24px
+    font-family: Roboto Condensed
+    font-style: normal
+    font-weight: bold
+    font-size: 20px
+    line-height: 24px
+    color: #1565D8
+  &__button
+    margin-top: 25px
+    width: 101px
+    height: 36px
+    position: relative
+    border: 0px
+    background: rgba(24, 59, 86, 1)
+    border-radius: 2000px
+    font-family: Open Sans
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    line-height: 22px
+    text-align: center
+    color: #FFFFFF
+    cursor: pointer
+    &::after
+      content: ''
+      top: 0
+      right: 0
+      bottom: 0
+      left: 0
+      display: block
+      position: absolute
+      background: rgba(0, 0, 0, 0.0001)
+      width: 100%
+      height: 100%
+      border: 0
+      z-index: 50
+      border-radius: 2000px
+    &:hover
+      transition: .7s
+      color:  rgba(24, 59, 86, 1)
+      background: #FFFFFF
+      border: 1px solid rgba(24, 59, 86, 1)
